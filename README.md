@@ -5,7 +5,7 @@ Submission for Bareksa's Android Developer Stechoq Skill Test
 ## Screenshot
 <p float="left">
   <img src="https://github.com/furqoncreative/Stechoq-Skill-Test/blob/dev/assets/Screenshot_20210630-193026_Stechoq%20TODO.jpg" alt="splash" width="200"/>
-  <img src="https://github.com/furqoncreative/Stechoq-Skill-Test/blob/dev/assets/Screenshot_20210630-193034_Stechoq%20TODO.jpg" alt="main" width="200"/>
+  <img src="https://github.com/furqoncreative/Stechoq-Skill-Test/blob/dev/assets/Screenshot_20210630-204256_Stechoq%20TODO.jpg" alt="main" width="200"/>
 </p>
 
 ## Structure
