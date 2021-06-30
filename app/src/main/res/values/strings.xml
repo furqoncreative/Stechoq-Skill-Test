@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Stechoq TODO</string>
+    <string name="no_data">Empty data</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="text_detail_task">Detail Task</string>
+    <string name="tv_status">Status</string>
+    <string name="text_id_user">ID User</string>
+    <string name="text_colon">:</string>
+    <string name="text_id_task">ID Task</string>
+    <string name="logo">Logo</string>
 </resources>
