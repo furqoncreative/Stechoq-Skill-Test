@@ -10,8 +10,6 @@ class LocalDataSource(
 
     fun getAllTodos(): Flow<List<TodoEntity>> = todoDao.getAllTodos()
 
-    fun getTodo(param: Int): Flow<TodoEntity> = todoDao.getTodo(param)
-
     suspend fun insertTodos(todos: List<TodoEntity>) =
         todoDao.insertAllTodos(todos)
 

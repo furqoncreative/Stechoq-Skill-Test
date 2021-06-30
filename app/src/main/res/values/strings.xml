@@ -8,4 +8,7 @@
     <string name="text_colon">:</string>
     <string name="text_id_task">ID Task</string>
     <string name="logo">Logo</string>
+    <string name="text_task">Task</string>
+    <string name="text_completed">Completed</string>
+    <string name="text_todo">TODO</string>
 </resources>

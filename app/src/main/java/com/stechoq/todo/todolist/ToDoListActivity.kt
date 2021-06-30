@@ -14,7 +14,7 @@ import com.stechoq.todo.tododetail.ToDoDetailActivity
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class ToDoListActivity : AppCompatActivity() {
-    lateinit var binding: ActivityToDoListBinding
+    private lateinit var binding: ActivityToDoListBinding
     private val viewModel: TodoListViewModel by viewModel()
 
     override fun onCreate(savedInstanceState: Bundle?) {
