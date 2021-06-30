@@ -6,5 +6,5 @@ import com.stechoq.todo.core.domain.model.Todo
 import kotlinx.coroutines.flow.Flow
 
 interface TodosUseCase {
-    fun getAllRecipes(): Flow<Resource<List<Todo>>>
+    fun getAllTodos(): Flow<Resource<List<Todo>>>
 }
