@@ -8,6 +8,10 @@ Submission for Bareksa's Android Developer Stechoq Skill Test
   <img src="https://github.com/furqoncreative/Stechoq-Skill-Test/blob/dev/assets/Screenshot_20210630-204256_Stechoq%20TODO.jpg" alt="main" width="200"/>
 </p>
 
+##Apk File
+
+[Download](https://github.com/furqoncreative/Stechoq-Skill-Test/blob/dev/app/release/app-release.apk)
+
 ## Structure
 
 * `build.gradle` - root gradle config file
