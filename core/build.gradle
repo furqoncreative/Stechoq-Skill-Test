@@ -9,13 +9,17 @@ apply from: '../shared_dependencies.gradle'
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
+    
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        buildConfigField "String", "SERVER_URL", "\"https://jsonplaceholder.typicode.com\""
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
