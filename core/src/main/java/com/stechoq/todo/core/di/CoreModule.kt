@@ -45,9 +45,9 @@ val networkModule = module {
         }
         val hostname = "jsonplaceholder.typicode.com"
         val certificatePinner = CertificatePinner.Builder()
-            .add(hostname, "sha256/EK2RvZrro1OVooxKDZMGtPNZfV88eMgZB8DVpUFfxrw=")
-            .add(hostname, "sha256/jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0=")
-            .add(hostname, "sha256/Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=")
+            .add(hostname, "sha256/XlCPXC6IrttTF9Y1887kS+efCCf3uFjHW6D1TUI9f+Q=")
+            .add(hostname, "sha256/FEzVOUp4dF3gI0ZVPRJhFbSJVXR+uQmMH65xhs1glH4=")
+            .add(hostname, "sha256/Y9mvm0exBk1JoQ57f9Vm28jKo5lFm/woKcVxrYxu80o=")
             .build()
         OkHttpClient.Builder()
             .addInterceptor(logging)
