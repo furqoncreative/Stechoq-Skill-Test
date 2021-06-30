@@ -4,6 +4,8 @@ import android.app.Application
 import com.stechoq.todo.core.di.databaseModule
 import com.stechoq.todo.core.di.networkModule
 import com.stechoq.todo.core.di.repositoryModule
+import com.stechoq.todo.di.useCaseModule
+import com.stechoq.todo.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -19,7 +21,9 @@ class MyApplication : Application() {
                 listOf(
                     databaseModule,
                     networkModule,
-                    repositoryModule
+                    repositoryModule,
+                    useCaseModule,
+                    viewModelModule
                 )
             )
         }
