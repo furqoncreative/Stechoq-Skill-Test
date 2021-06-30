@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("todos")
+    @GET("/todos")
     suspend fun getAllTodos(): List<TodoResponse>
 
 }
