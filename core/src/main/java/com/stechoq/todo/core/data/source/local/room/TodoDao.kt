@@ -13,9 +13,6 @@ interface TodoDao {
     @Query("SELECT * FROM todo")
     fun getAllTodos(): Flow<List<TodoEntity>>
 
-    @Query("SELECT * FROM todo WHERE id = :param")
-    fun getTodo(param: Int): Flow<TodoEntity>
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAllTodos(recipes: List<TodoEntity>)
 
