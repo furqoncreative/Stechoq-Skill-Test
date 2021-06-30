@@ -1,2 +1,3 @@
 rootProject.name = "Stechoq TODO"
 include ':app'
+include ':core'
